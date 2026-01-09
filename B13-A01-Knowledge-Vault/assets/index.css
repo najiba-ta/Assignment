@@ -4,10 +4,9 @@
 }
 .navigation{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 16px 120px 16px 120px;
-    gap: 222;
     background-color:#FFFFFF;
 }
 .nav li{
@@ -22,13 +21,107 @@
     display: flex;
     gap: 32px;
     align-items: center;
+    justify-content: flex-start;
 }
 .btn{
     font-size: 16px;
     font-weight: 600;
     color:#FFFFFF;
     background-color: #30B868;
+    line-height: 19px;
     padding:12px 16px;
     border: none;
+    text-align: center;
     border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(1, 48, 1);
+    
+}
+
+
+#banner{
+    border: 2px solid black;
+    width: 1688px;
+    height: 800px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.early-badge{
+    width: 229px;
+    height: 36px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px 12px 5px 12px;
+    margin-top: 90px;
+    border-radius: 1000px;
+    color: #30B868;
+    background-color: #FFFFFF;
+}
+.dot{
+     width: 16px;
+     height: 16px;
+     border-radius: 8px;
+     background-color: #229753;
+     box-shadow: 0 0 0 2px #93f1bb,
+     0 0 0 6px #d2fae2;
+     margin: 5px 4px;
+}
+.text{
+    width: 770px;
+    height: 180px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #30B868;
+}
+.text::first-line{
+    color: #FFFFFF;
+}
+.content{
+    width: 770px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.primary-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.btn{
+    width: 251px;
+    height: 52px;
+    color:#FFFFFF;
+    background-color: #30B868;
+    line-height: 19px;
+    padding:12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bttn{
+    width: 198px;
+    height: 52px;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius:5px ;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+.bttn:hover{
+    background-color: skyblue;
 }
